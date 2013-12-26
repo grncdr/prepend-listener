@@ -1,0 +1,22 @@
+{
+  "name": "prepend-listener",
+  "version": "0.0.0",
+  "description": "add a listener to an EventEmitter *before* existing listeners",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "markdown-code-blocks": "~0.0.1"
+  },
+  "scripts": {
+    "test": "markdown-code-blocks -t javascript < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/prepend-listener.git"
+  },
+  "homepage": "https://github.com/substack/prepend-listener",
+  "keywords": ["event-emitter","eventemitter","prepend"],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "MIT"
+}
